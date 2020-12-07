@@ -55,11 +55,11 @@ function draw() {
   box2.display();
   box3.display();
   paper.display();
-  Fly();
+  
 }
- function Fly(){
+ function keyPressed(){
 	if(keyCode === UP_ARROW){
-		Body.applyForce(paper.body,paper.body.position,{x:2,y:-4.0})
+		Body.applyForce(paper.body,paper.body.position,{x:62,y:-64.0})
 	}
  }
 
