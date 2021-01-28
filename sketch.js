@@ -29,7 +29,7 @@ function setup() {
 	
 	box2 =new Box(650,675,125,20);
 
-	box3 =new Box(720,600,20,150);
+	box3 =new Box(710,600,20,150);
 	
 
 	 paper = new Paper(100,650,20,20);
@@ -59,7 +59,7 @@ function draw() {
 }
  function keyPressed(){
 	if(keyCode === UP_ARROW){
-		Body.applyForce(paper.body,paper.body.position,{x:62,y:-64.0})
+		Body.applyForce(paper.body,paper.body.position,{x:62,y:-65.0})
 	}
  }
 
